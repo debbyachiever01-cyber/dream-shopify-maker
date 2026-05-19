@@ -15,13 +15,13 @@ import { CursorGlow } from "@/components/site/CursorGlow";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Lumora — Shopify Growth Studio That Converts" },
+      { title: "AD AGENCY — Shopify Growth Studio That Converts" },
       {
         name: "description",
         content:
-          "Lumora is a Shopify growth studio building conversion-led storefronts, CRO systems and full-funnel marketing for ambitious ecommerce brands.",
+          "AD AGENCY is a Shopify growth studio building conversion-led storefronts, CRO systems and full-funnel marketing for ambitious ecommerce brands.",
       },
-      { property: "og:title", content: "Lumora — Shopify Growth Studio" },
+      { property: "og:title", content: "AD AGENCY — Shopify Growth Studio" },
       {
         property: "og:description",
         content:

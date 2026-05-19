@@ -16,7 +16,7 @@ export function WhyUs() {
     <section className="relative py-28 sm:py-36">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="max-w-2xl">
-          <p className="text-xs uppercase tracking-[0.3em] text-accent">Why Lumora</p>
+          <p className="text-xs uppercase tracking-[0.3em] text-accent">Why AD AGENCY</p>
           <h2 className="mt-3 font-display font-bold text-4xl sm:text-5xl lg:text-6xl leading-tight">
             Most agencies design.{" "}
             <span className="text-gradient-primary">We engineer revenue.</span>
@@ -33,7 +33,7 @@ export function WhyUs() {
           <div className="grid grid-cols-[1.5fr_1fr_1fr] text-sm">
             <div className="p-5 sm:p-7 font-display font-semibold text-base">Capability</div>
             <div className="p-5 sm:p-7 font-display font-semibold text-base bg-gradient-primary text-white text-center">
-              Lumora
+              AD AGENCY
             </div>
             <div className="p-5 sm:p-7 font-display font-semibold text-base text-muted-foreground text-center">
               Typical agency

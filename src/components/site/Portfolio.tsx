@@ -1,5 +1,16 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, TrendingUp } from "lucide-react";
+import proof1 from "@/assets/proof-1.jpg";
+import proof2 from "@/assets/proof-2.jpg";
+import proof3 from "@/assets/proof-3.jpg";
+import proof4 from "@/assets/proof-4.jpg";
+
+const proofs = [
+  { src: proof1, label: "Total sales $1,772", metric: "+52%" },
+  { src: proof2, label: "Total sales $708.52", metric: "+119%" },
+  { src: proof3, label: "Total sales $714.68", metric: "+74%" },
+  { src: proof4, label: "Total sales $669.26", metric: "+2.6K%" },
+];
 
 const cases = [
   {
@@ -56,7 +67,44 @@ export function Portfolio() {
           </a>
         </div>
 
+        {/* Real sales proof gallery */}
+        <div className="mt-14">
+          <div className="flex items-center gap-3 mb-6">
+            <TrendingUp className="h-4 w-4 text-accent" />
+            <p className="text-xs uppercase tracking-[0.3em] text-accent">Real sales proof</p>
+          </div>
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+            {proofs.map((p, i) => (
+              <motion.figure
+                key={i}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-80px" }}
+                transition={{ duration: 0.6, delay: i * 0.08 }}
+                whileHover={{ y: -6 }}
+                className="group relative glass-strong rounded-2xl overflow-hidden glow-border"
+              >
+                <div className="relative aspect-[3/4] overflow-hidden bg-white">
+                  <img
+                    src={p.src}
+                    alt={`Shopify dashboard showing ${p.label}`}
+                    loading="lazy"
+                    className="h-full w-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div className="absolute top-3 right-3 glass-strong rounded-full px-2.5 py-1 text-[11px] font-semibold text-accent">
+                    {p.metric}
+                  </div>
+                </div>
+                <figcaption className="p-3 text-xs text-muted-foreground text-center">
+                  {p.label}
+                </figcaption>
+              </motion.figure>
+            ))}
+          </div>
+        </div>
+
         <div className="mt-14 grid md:grid-cols-2 gap-6">
+
           {cases.map((c, i) => (
             <motion.article
               key={c.name}
