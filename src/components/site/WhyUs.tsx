@@ -13,7 +13,7 @@ const rows = [
 
 export function WhyUs() {
   return (
-    <section className="relative py-28 sm:py-36">
+    <section className="section-light relative py-28 sm:py-36">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="max-w-2xl">
           <p className="text-xs uppercase tracking-[0.3em] text-accent">Why AD AGENCY</p>
