@@ -1,5 +1,16 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, TrendingUp } from "lucide-react";
+import proof1 from "@/assets/proof-1.jpg";
+import proof2 from "@/assets/proof-2.jpg";
+import proof3 from "@/assets/proof-3.jpg";
+import proof4 from "@/assets/proof-4.jpg";
+
+const proofs = [
+  { src: proof1, label: "Total sales $1,772", metric: "+52%" },
+  { src: proof2, label: "Total sales $708.52", metric: "+119%" },
+  { src: proof3, label: "Total sales $714.68", metric: "+74%" },
+  { src: proof4, label: "Total sales $669.26", metric: "+2.6K%" },
+];
 
 const cases = [
   {
