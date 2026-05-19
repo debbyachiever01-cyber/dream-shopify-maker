@@ -13,7 +13,7 @@ export function Footer() {
               <div className="h-9 w-9 rounded-lg bg-gradient-primary grid place-items-center shadow-glow">
                 <span className="font-display font-bold text-white">L</span>
               </div>
-              <span className="font-display font-semibold text-lg tracking-tight">Lumora</span>
+              <span className="font-display font-semibold text-lg tracking-tight">AD AGENCY</span>
             </a>
             <p className="mt-4 text-sm text-muted-foreground max-w-sm">
               A Shopify growth studio building conversion-led storefronts and the
@@ -53,7 +53,7 @@ export function Footer() {
         </div>
 
         <div className="mt-14 pt-6 border-t border-white/5 flex flex-wrap items-center justify-between gap-4 text-xs text-muted-foreground">
-          <div>© {new Date().getFullYear()} Lumora Studio. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} AD AGENCY Studio. All rights reserved.</div>
           <div className="flex gap-5">
             <a href="#" className="hover:text-foreground transition-colors">Privacy</a>
             <a href="#" className="hover:text-foreground transition-colors">Terms</a>
