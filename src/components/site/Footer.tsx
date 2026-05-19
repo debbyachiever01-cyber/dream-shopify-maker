@@ -1,4 +1,5 @@
 import { Instagram, Twitter, Linkedin, Github } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 export function Footer() {
   return (
@@ -9,9 +10,9 @@ export function Footer() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 py-16">
         <div className="grid md:grid-cols-4 gap-10">
           <div className="md:col-span-2">
-            <a href="#top" className="flex items-center gap-2 group">
-              <div className="h-9 w-9 rounded-lg bg-gradient-primary grid place-items-center shadow-glow">
-                <span className="font-display font-bold text-white">L</span>
+            <a href="#top" className="flex items-center gap-2.5 group">
+              <div className="h-10 w-10 rounded-lg overflow-hidden shadow-glow ring-1 ring-accent/30">
+                <img src={logo} alt="AD AGENCY logo" className="h-full w-full object-cover" />
               </div>
               <span className="font-display font-semibold text-lg tracking-tight">AD AGENCY</span>
             </a>
@@ -43,11 +44,11 @@ export function Footer() {
           </div>
 
           <div>
-            <div className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Contact</div>
+            <div className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Get Free Store Advice</div>
             <ul className="mt-4 space-y-2.5 text-sm text-muted-foreground">
-              <li><a href="mailto:hello@lumora.studio" className="hover:text-foreground transition-colors">hello@lumora.studio</a></li>
-              <li>Brooklyn · Lisbon · Remote</li>
-              <li><a href="#audit" className="hover:text-foreground transition-colors">Book a strategy call →</a></li>
+              <li><a href="tel:+2347052635517" className="hover:text-foreground transition-colors">+234 705 263 5517</a></li>
+              <li><a href="mailto:akindurodeorah@gmail.com" className="hover:text-foreground transition-colors break-all">akindurodeorah@gmail.com</a></li>
+              <li><a href="#audit" className="hover:text-foreground transition-colors">Get free store advice →</a></li>
             </ul>
           </div>
         </div>
