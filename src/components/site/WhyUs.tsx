@@ -33,7 +33,7 @@ export function WhyUs() {
           <div className="grid grid-cols-[1.5fr_1fr_1fr] text-sm">
             <div className="p-5 sm:p-7 font-display font-semibold text-base">Capability</div>
             <div className="p-5 sm:p-7 font-display font-semibold text-base bg-gradient-primary text-white text-center">
-              Lumora
+              AD AGENCY
             </div>
             <div className="p-5 sm:p-7 font-display font-semibold text-base text-muted-foreground text-center">
               Typical agency

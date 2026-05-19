@@ -125,7 +125,7 @@ export function Hero() {
               className="h-12 rounded-full bg-gradient-primary text-white border-0 shadow-glow hover:opacity-95 px-6"
             >
               <a href="#audit">
-                Book Free Strategy Call <ArrowRight className="ml-1 h-4 w-4" />
+                Get Free Store Advice <ArrowRight className="ml-1 h-4 w-4" />
               </a>
             </Button>
             <Button

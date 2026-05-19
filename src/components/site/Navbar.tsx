@@ -67,7 +67,7 @@ export function Navbar() {
             className="rounded-full bg-gradient-primary text-white border-0 shadow-glow hover:opacity-95"
             size="sm"
           >
-            <a href="#audit">Book a Call</a>
+            <a href="#audit">Get Free Store Advice</a>
           </Button>
         </div>
       </div>
