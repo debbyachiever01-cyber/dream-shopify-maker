@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.jpg";
 
 const links = [
   { label: "Services", href: "#services" },
@@ -42,12 +43,11 @@ export function Navbar() {
             scrolled ? "glass-strong shadow-glow" : "glass"
           }`}
         >
-          <a href="#top" className="flex items-center gap-2 group">
-            <div className="relative h-8 w-8 rounded-lg bg-gradient-primary grid place-items-center shadow-glow">
-              <div className="absolute inset-0 rounded-lg bg-gradient-primary blur-md opacity-60 group-hover:opacity-100 transition" />
-              <span className="relative font-display font-bold text-white">L</span>
+          <a href="#top" className="flex items-center gap-2.5 group">
+            <div className="relative h-9 w-9 rounded-lg overflow-hidden shadow-glow ring-1 ring-accent/30">
+              <img src={logo} alt="AD AGENCY logo" className="h-full w-full object-cover" />
             </div>
-            <span className="font-display font-semibold tracking-tight">Lumora</span>
+            <span className="font-display font-semibold tracking-tight">AD AGENCY</span>
           </a>
 
           <nav className="hidden md:flex items-center gap-1">
