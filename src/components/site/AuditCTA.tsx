@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { ArrowRight, Sparkles } from "lucide-react";
+import { ArrowRight, Sparkles, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
@@ -24,19 +24,19 @@ export function AuditCTA() {
             <div>
               <div className="inline-flex items-center gap-2 rounded-full glass px-3 py-1 text-xs">
                 <Sparkles className="h-3 w-3 text-accent" />
-                Free Shopify audit
+                Get Free Store Advice
               </div>
               <h2 className="mt-5 font-display font-bold text-4xl sm:text-5xl lg:text-6xl leading-[1.05]">
                 Your Shopify store might be{" "}
                 <span className="text-gradient-primary">losing sales every day.</span>
               </h2>
               <p className="mt-5 text-lg text-muted-foreground max-w-lg">
-                Get a free conversion audit and discover exactly what's stopping
-                your visitors from buying.
+                Get free, no-pitch advice on what's holding your store back —
+                straight from operators who've scaled brands past 7 figures.
               </p>
               <ul className="mt-7 space-y-2.5 text-sm text-muted-foreground">
                 {[
-                  "20-minute Loom video audit",
+                  "Personal review of your storefront",
                   "3 highest-impact opportunities",
                   "No-pitch — actionable takeaways only",
                 ].map((x) => (
@@ -46,6 +46,23 @@ export function AuditCTA() {
                   </li>
                 ))}
               </ul>
+
+              <div className="mt-7 flex flex-col sm:flex-row gap-3">
+                <a
+                  href="tel:+2347052635517"
+                  className="inline-flex items-center gap-2.5 rounded-full glass-strong px-4 py-2.5 text-sm hover:bg-gradient-primary transition-colors"
+                >
+                  <Phone className="h-4 w-4 text-accent" />
+                  +234 705 263 5517
+                </a>
+                <a
+                  href="mailto:akindurodeorah@gmail.com"
+                  className="inline-flex items-center gap-2.5 rounded-full glass-strong px-4 py-2.5 text-sm hover:bg-gradient-primary transition-colors"
+                >
+                  <Mail className="h-4 w-4 text-accent" />
+                  akindurodeorah@gmail.com
+                </a>
+              </div>
             </div>
 
             <form
