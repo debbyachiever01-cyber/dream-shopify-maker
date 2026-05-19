@@ -19,7 +19,7 @@ const services = [
 
 export function Services() {
   return (
-    <section id="services" className="relative py-28 sm:py-36">
+    <section id="services" className="section-brown relative py-28 sm:py-36">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="max-w-2xl">
           <p className="text-xs uppercase tracking-[0.3em] text-accent">What we do</p>
