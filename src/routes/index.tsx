@@ -47,7 +47,6 @@ function Index() {
       <Navbar />
       <main className="relative z-10">
         <Hero />
-        <Marquee />
         <Services />
         <Portfolio />
         <Process />
