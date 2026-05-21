@@ -50,10 +50,10 @@ export function WhyUs() {
               >
                 <div className="px-5 sm:px-7 py-4 border-t border-white/5">{r}</div>
                 <div className="px-5 sm:px-7 py-4 border-t border-white/5 grid place-items-center bg-primary/5">
-                  <Check className="h-5 w-5 text-accent" />
+                  <Check className="h-5 w-5 text-black" strokeWidth={3} />
                 </div>
                 <div className="px-5 sm:px-7 py-4 border-t border-white/5 grid place-items-center">
-                  <X className="h-4 w-4 text-muted-foreground/50" />
+                  <X className="h-4 w-4 text-black" strokeWidth={3} />
                 </div>
               </motion.div>
             ))}
